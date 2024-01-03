@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: #0d1328;
+}
+.navication {
+  margin-top: 20px;
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.nav_ariya {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 60px;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+li {
+  font-weight: bold;
+  margin: 0 33px;
+  color: white;
+}
+.names {
+  margin-left: 55px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+aside {
+  background-size: cover;
+  width: 300px;
+  height: 350px;
+  background-image: url(image/sanim.jpg);
+  float: right;
+  margin: 60px 150px;
+  background-color: transparent;
+  opacity: 0.7;
+  box-shadow: 4px 8px 10px #265073;
+  border-radius: 0.5rem;
+}
+
+.text_ariya {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.text_ariya h1 {
+  font-weight: bolder;
+  color: #dddd;
+  font-size: 53px;
+}
+h2 {
+  margin: 20px 0;
+  color: #3887be;
+  font-size: 35px;
+  font-weight: bold;
+}
+p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.btn {
+  margin-top: 40px;
+}
+.btns {
+  margin-left: 50px;
+  background-color: #3887be;
+  color: #dddd;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+}
+.buttons {
+  margin-left: 50px;
+  background-color: transparent;
+  color: #3887be;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  border-radius: 0.5rem;
+  border: 2px solid #3887be;
+}
+
+.box {
+  background-color: #3887be;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.scoil_mediya {
+  display: flex;
+  position: relative;
+  top: 80px;
+  left: 60px;
+}
+.services {
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
+  font-size: 25px;
+}
+.Awesome {
+  color: white;
+  margin-left: 20px;
+}
+.servicesh {
+  color: #da0c81;
+}
